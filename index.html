@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arima&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/Favicon.png">
+  <title>Shortest Path Finder</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="nav-bar">
+    <div class="title">
+      <h1>Dijkstra's Visualiser</h1>
+    </div>
+    <div class="flex-buttons">
+      <div class="">
+        <select class="drop-down" name="speed">
+          <option value="#" selected >Select Speed</option>
+          <option value="350050">Slow</option>
+          <option value="200025">Fast</option>
+        </select>
+      </div>
+      <div class="random-maze round">
+        <img src="Images/maze.png" alt="" width="60px">
+      </div>
+      <div class="clear-grid round">
+        <img src="Images/clear.png" alt="" width="60px" style="border-radius:100px">
+      </div>
+      <div class="start-button round">
+        <img src="Images/PlayButton.png" alt="" width="60px" >
+      </div>
+    </div>
+  </div>
+
+  <!-- grid -->
+  <div class="grid">
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
