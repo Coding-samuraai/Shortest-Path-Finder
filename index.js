@@ -106,8 +106,8 @@ var destination={
 };
 
 
-$(".flex-row."+source.row+" ."+source.col).append('<img class="SD" src="images/source.png" width="24px">');
-$(".flex-row."+destination.row+" ."+destination.col).append('<img class="SD" src="images/destination.jpg" width="26px">');
+$(".flex-row."+source.row+" ."+source.col).append('<img class="SD" src="Images/source.png" width="24px">');
+$(".flex-row."+destination.row+" ."+destination.col).append('<img class="SD" src="Images/destination.jpg" width="26px">');
 //
 
 //function to block Cells
